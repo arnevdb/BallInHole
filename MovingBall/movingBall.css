@@ -1,0 +1,16 @@
+body {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    background-color: #00FF00;
+}
+
+                            #fullscreenButton {
+                                position: absolute;
+                                right: 10px;
+                                top: 5px;
+                                font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+                                font-weight: 300;
+                                font-size: 22px;
+                                color: #ff0000;
+                            }
