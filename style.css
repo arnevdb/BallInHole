@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+div#ball {
+    border: 3px solid blue;
+    border-radius: 50%;
+    background-color: blue;
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+div#field{
+    border: 3px solid blue;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+div#timer{
+    margin-top: 2%;
+    margin-left: 48%;
+    margin-bottom: 2%;
+}
+div#buttons{
+    margin-left: 30%;
+    margin-top: 80%;
+}

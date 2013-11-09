@@ -1,25 +1,22 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>BallInHole</title>
-<link href="BallInHole.css" rel="stylesheet" type="text/css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Ball in hole</title>
+    <link rel="stylesheet" href="style.css"/>
+    <script src="script.js"></script>
 </head>
-
-<body>
-<div class = "container">
-<label id = "time">00:00</label>
-<div class= "field">
-test
+<body onload="init();">
+<div id="timer"></div>
+<div id="field" style="position:absolute; top:0px; left:0px; width:80%; height:80%;">
+    <div id="output"></div>
+    <div id="ball" style="top:0px;left:0px;"></div>
 </div>
-
-<div id= "buttons">
-<button id="play" href="javascript:void(0)"> <img src="images/play.png" /></button>
-<button id="pause" href="javascript:void(0)"> <img src="images/pause.png" /></button>
-<button id="stop" href="javascript:void(0)"> <img src="images/stop.png" /></button>
-</div>
-
-
+<div id="buttons">
+    <button onclick="play()" href="javascript:play()">play</button>
+    <button onclick="pause()" href="javascript:pause">pause</button>
+    <button onclick="stop()" href="javascript:stop()">stop</button>
 </div>
 </body>
 </html>
